@@ -1,0 +1,242 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  height: 80px;
+  align-items: center;
+  border-bottom:  5px solid black;
+  background-color: lightgrey;
+}
+
+nav button{
+  border-radius: 10px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: 600;
+  height: 50px;
+  padding: 5px;
+  background-color: darkgrey;
+  color: black;
+  position: relative;
+  font-family: Rubik Doodle Shadow;
+}
+
+nav div img{
+  height: 76px;
+  width: 130px;
+  position: relative;
+  margin-right: 140px;
+}
+
+.main_box{
+  height: 630px;
+  width: 100%;
+  font-family: Rubik Doodle Shadow;
+  color: greenyellow;
+  border-bottom: 4px solid black;
+  position: relative;
+}
+
+
+.content{
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 130px;
+  z-index: 9;
+  position: relative;
+  padding-left: 20px;
+}
+.content button{
+  height: 80px;
+  width: 160px;
+  border: 5px solid black;
+  border-radius: 30px;
+  font-family: Rubik Doodle Shadow;
+  font-size: 30px;
+  margin-top: 40px;
+  background-color: darkgrey;
+  animation-name: Anime1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.second_main_box{
+  min-height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightgrey;
+  font-family: Rubik Doodle Shadow;
+  border-bottom: 4px solid black;
+  align-items: center;
+  background-image: url(pexels-pixabay-65259.jpg);
+  background-size: cover;
+  color: greenyellow;
+}
+
+.box1{
+  height: 500px;
+  width: 400px;
+  background-color: darkgrey;
+  border: 2px solid black;
+  border-radius: 40px;
+  position: relative;
+  justify-content: center;
+}
+.box2{
+  height: 500px;
+  width: 400px;
+  background-color: darkgrey;
+  border: 2px solid black;
+  border-radius: 40px;
+}
+.box3{
+  height: 500px;
+  width: 400px;
+  background-color: darkgrey;
+  border: 2px solid black;
+  border-radius: 40px;
+}
+.box1 h1{
+  margin-left: 120px;
+}
+
+.box2 h1{
+  margin-left: 120px;
+}
+
+.box3 h1{
+  margin-left: 100px;
+}
+
+.imgBox1{
+  height: 240px;
+  width: 200px;
+  background-image: url(boy.png);
+  background-size: cover;
+  margin-left: 110px;
+}
+
+.imgBox2{
+  height: 240px;
+  width: 230px;
+  background-image: url(naruto.png);
+  background-size: cover;
+  margin-left: 80px;
+}
+
+.imgBox3{
+  height: 280px;
+  width: 200px;
+  background-image: url(girl.png);
+  background-size: cover;
+  margin-left: 110px;
+}
+
+.head1{
+  margin-left: 20px;
+  font-size: large;
+  margin-top: 10px;
+  color: black;
+}
+
+.head2{
+  margin-left: 20px;
+  font-size: large;
+  margin-top: 10px;
+  color: black;
+}
+
+.head3{
+  margin-left: 20px;
+  font-size: large;
+  margin-top: 10px;
+  color: black;
+}
+
+.search_bar{
+  height: 45px;
+  width: 300px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  font-family: Rubik Doodle Shadow;
+  font-size: 25px;
+  color: black;
+}
+
+.search_button{
+  height: 45px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+}
+
+.third_main_box{
+  height: 500px;
+  width: 100%;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 4px solid black;
+  background-image: url(pexels-pixabay-65259.jpg);
+  background-size: cover;
+  color: greenyellow;
+}
+
+.third_main_box video{
+  height: 400px;
+  width: 500px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+.content2{
+  height: 200px;
+  width: 600px;
+  font-size: 40px;
+  font-family: Rubik Doodle Shadow;
+  margin-top: 80px;
+}
+
+.video_container{
+  border-radius: 40px;
+}
+
+@keyframes Anime1 {
+  0%{
+    background-color: lightgrey;
+  }
+  20%{
+    background-color: lightpink;
+  }
+  40%{
+    background-color: aquamarine;
+  }
+  60%{
+    background-color: blueviolet;
+  }
+  80%{
+    background-color: lightskyblue;
+  }
+  100%{
+    background-color: lightgreen;
+  }
+}
+
+.main_box video{
+  width: 100%;
+  height: 100%;
+}
+
+.content{
+  z-index: 1000;
+  position: relative;
+}
